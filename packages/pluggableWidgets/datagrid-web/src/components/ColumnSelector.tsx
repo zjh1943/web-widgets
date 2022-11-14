@@ -66,7 +66,6 @@ export function ColumnSelector(props: ColumnSelectorProps): ReactElement {
                     <li
                         key={index}
                         onClick={e => {
-                            e.preventDefault();
                             e.stopPropagation();
                             onClick(isVisible, column.id);
                         }}
