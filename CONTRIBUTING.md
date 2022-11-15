@@ -9,7 +9,7 @@ See [Prerequisites](https://github.com/mendix/web-widgets/blob/main/README.md#pr
 1. Clone this repository
 
 ```sh
-$ git clone https://github.com/mendix/web-widgets.git
+$ git clone https://github.com/zjh1943/web-widgets.git
 $ cd web-widgets
 ```
 

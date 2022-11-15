@@ -7,7 +7,7 @@
   "homepage": "https://github.com/mendix/web-widgets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mendix/web-widgets.git"
+    "url": "https://github.com/zjh1943/web-widgets.git"
   },
   "private": true,
   "main": "dist/index.js",
