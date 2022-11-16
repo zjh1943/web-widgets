@@ -23,14 +23,20 @@ export interface DatagridDateFilterContainerProps {
     valueAttribute?: EditableValue<Date>;
     startDateAttribute?: EditableValue<Date>;
     endDateAttribute?: EditableValue<Date>;
+    filterTypeAttribute?: EditableValue<string>;
     onChange?: ActionValue;
+    onFilterTypeChange?: ActionValue;
     screenReaderButtonCaption?: DynamicValue<string>;
     screenReaderCalendarCaption?: DynamicValue<string>;
     screenReaderInputCaption?: DynamicValue<string>;
 }
 
 export interface DatagridDateFilterPreviewProps {
+    /**
+     * @deprecated Deprecated since version 9.18.0. Please use class property instead.
+     */
     className: string;
+    class: string;
     style: string;
     styleObject?: CSSProperties;
     readOnly: boolean;
@@ -44,7 +50,9 @@ export interface DatagridDateFilterPreviewProps {
     valueAttribute: string;
     startDateAttribute: string;
     endDateAttribute: string;
+    filterTypeAttribute: string;
     onChange: {} | null;
+    onFilterTypeChange: {} | null;
     screenReaderButtonCaption: string;
     screenReaderCalendarCaption: string;
     screenReaderInputCaption: string;

@@ -73,11 +73,23 @@
                         <attributeType name="DateTime" />
                     </attributeTypes>
                 </property>
+                <property key="filterTypeAttribute" type="attribute" required="false">
+                    <caption>Saved filter type</caption>
+                    <description>Attribute used to store the last type of the filter.</description>
+                    <attributeTypes>
+                        <attributeType name="String" />
+                        <attributeType name="HashString" />
+                    </attributeTypes>
+                </property>
             </propertyGroup>
             <propertyGroup caption="Events">
                 <property key="onChange" type="action" required="false">
                     <caption>On change</caption>
                     <description>Action to be triggered when the value or filter changes.</description>
+                </property>
+                <property key="onFilterTypeChange" type="action" required="false">
+                    <caption>On filter type change</caption>
+                    <description>Action to be triggered when the type or filter changes.</description>
                 </property>
             </propertyGroup>
         </propertyGroup>
