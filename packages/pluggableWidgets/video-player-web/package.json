@@ -23,7 +23,7 @@
     "appName": "Video Player"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "video-player-web"
   },
   "packagePath": "com.mendix.widget.web",

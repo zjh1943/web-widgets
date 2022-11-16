@@ -23,7 +23,7 @@
     "appName": "Drop-down Filter"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "datagrid-dropdown-filter-web"
   },
   "packagePath": "com.mendix.widget.web",

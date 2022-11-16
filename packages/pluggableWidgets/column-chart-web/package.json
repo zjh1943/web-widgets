@@ -23,7 +23,7 @@
     "appName": "Column Chart"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "column-chart-web"
   },
   "packagePath": "com.mendix.widget.web",

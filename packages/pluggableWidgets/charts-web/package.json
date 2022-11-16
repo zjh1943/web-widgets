@@ -31,7 +31,7 @@
     "appName": "Charts"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/Charts-module",
+    "githubUrl": "https://github.com/zjh1943/Charts-module",
     "branchName": "main"
   },
   "scripts": {

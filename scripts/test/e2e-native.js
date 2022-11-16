@@ -20,7 +20,7 @@ async function main() {
     const ip = nodeIp.address();
     const ghcr = process.env.CI && process.env.FORKED !== "true" ? "ghcr.io/mendix/widgets-resources/" : "";
 
-    const testArchivePath = await getTestProject("https://github.com/mendix/Native-Mobile-Resources", "main");
+    const testArchivePath = await getTestProject("https://github.com/zjh1943/Native-Mobile-Resources", "main");
     const root = process.cwd();
     const projectsRoot = join(root, "tests");
     const projectDir = join(root, "tests/testProject");

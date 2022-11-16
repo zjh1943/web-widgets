@@ -19,7 +19,7 @@
     "appName": "Web Actions"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/Web-Actions",
+    "githubUrl": "https://github.com/zjh1943/Web-Actions",
     "branchName": "main"
   },
   "scripts": {

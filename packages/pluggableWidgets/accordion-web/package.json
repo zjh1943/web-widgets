@@ -23,7 +23,7 @@
     "appName": "Accordion"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "accordion-web"
   },
   "packagePath": "com.mendix.widget.web",

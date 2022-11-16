@@ -24,7 +24,7 @@
     "appName": "Rating"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "star-rating-web"
   },
   "packagePath": "com.mendix.widget.custom",

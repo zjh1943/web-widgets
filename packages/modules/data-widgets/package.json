@@ -30,7 +30,7 @@
     "appName": "Data Widgets"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/DataWidgets-module",
+    "githubUrl": "https://github.com/zjh1943/DataWidgets-module",
     "branchName": "main"
   },
   "scripts": {

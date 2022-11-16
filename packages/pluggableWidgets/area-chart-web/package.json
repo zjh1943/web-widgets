@@ -23,7 +23,7 @@
     "appName": "Area Chart"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "area-chart-web"
   },
   "packagePath": "com.mendix.widget.web",

@@ -23,7 +23,7 @@
     "appName": "Number Filter"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "datagrid-number-filter-web"
   },
   "packagePath": "com.mendix.widget.web",

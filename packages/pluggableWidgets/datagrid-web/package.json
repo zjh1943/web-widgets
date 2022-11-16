@@ -23,7 +23,7 @@
     "appName": "Data Grid 2"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "datagrid-web"
   },
   "packagePath": "com.mendix.widget.web",

@@ -23,7 +23,7 @@
     "appName": "Drop-down Sort"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "dropdown-sort-web"
   },
   "packagePath": "com.mendix.widget.web",

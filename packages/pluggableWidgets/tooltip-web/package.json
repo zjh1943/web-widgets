@@ -23,7 +23,7 @@
     "appName": "Tooltip"
   },
   "testProject": {
-    "githubUrl": "https://github.com/mendix/testProjects",
+    "githubUrl": "https://github.com/zjh1943/testProjects",
     "branchName": "tooltip-web"
   },
   "packagePath": "com.mendix.widget.web",
