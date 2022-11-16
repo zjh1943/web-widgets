@@ -95,6 +95,11 @@ export default function DatagridNumberFilter(props: DatagridNumberFilterContaine
                                 props.valueAttribute?.setValue(value);
                                 props.onChange?.execute();
                             }
+                            const attributeCurrentType = props.filterTypeAttribute?.value;
+                            if (type !== attributeCurrentType) {
+                                props.filterTypeAttribute?.setValue(type);
+                                props.onFilterTypeChange?.execute();
+                            }
                             const conditions = attributes
                                 ?.map(attribute => getFilterCondition(attribute, value, type))
                                 .filter((filter): filter is FilterCondition => filter !== undefined);
