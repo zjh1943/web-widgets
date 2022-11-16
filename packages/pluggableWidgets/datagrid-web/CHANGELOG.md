@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Fxied
+
+-   Fix the bug of hidden column selector. The bug is like this, when quickly click on the checkbok for 10+ times, the status of checkbox will be wrong.
+
 ## [2.4.2] - 2022-09-01
 
 ### Fixed
