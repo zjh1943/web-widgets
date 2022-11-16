@@ -86,7 +86,7 @@ export class GitHub {
             const release =
                 (await fetch<{ id: string }>(
                     "GET",
-                    `https://api.github.com/repos/mendix/web-widgets/releases/tags/${releaseTag}`
+                    `https://api.github.com/repos/zjh1943/web-widgets/releases/tags/${releaseTag}`
                 )) ?? [];
 
             if (!release) {
@@ -115,7 +115,7 @@ export class GitHub {
                 name: string;
                 browser_download_url: string;
             }>
-        >("GET", `https://api.github.com/repos/mendix/web-widgets/releases/${releaseId}/assets`);
+        >("GET", `https://api.github.com/repos/zjh1943/web-widgets/releases/${releaseId}/assets`);
     }
 
     async getMPKReleaseArtifactUrl(releaseTag: string): Promise<string> {
