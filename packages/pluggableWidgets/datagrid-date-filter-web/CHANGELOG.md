@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+-   Add filter type attribute and change handler
+
 ## [2.4.2] - 2022-09-29
 
 ### Fixed
