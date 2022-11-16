@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [2.5.7] DataWidgets - 2022-11-16
+
+### [2.4.3] DatagridDateFilter
+
+#### Added
+
+-   Add filter type attribute and change handler
+
+### [2.3.2] DatagridNumberFilter
+
+#### Added
+
+-   Add filter type attribute and change handler
+
+### [2.3.3] DatagridTextFilter
+
+#### Added
+
+-   Add filter type attribute and change handler
+
 ## [2.5.6] DataWidgets - 2022-09-29
 
 ### [2.4.2] DatagridDateFilter
