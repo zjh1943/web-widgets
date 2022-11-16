@@ -8,6 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [2.5.7] DataWidgets - 2022-11-16
 
+### [2.4.3] Datagrid
+
 #### Fixed
 
 -   Fix the bug of hidden column selector. The bug is like this, when quickly click on the checkbok for 10+ times, the status of checkbox will be wrong.
