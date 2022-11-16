@@ -20,13 +20,19 @@ export interface DatagridTextFilterContainerProps {
     adjustable: boolean;
     delay: number;
     valueAttribute?: EditableValue<string>;
+    filterTypeAttribute?: EditableValue<string>;
     onChange?: ActionValue;
+    onFilterTypeChange?: ActionValue;
     screenReaderButtonCaption?: DynamicValue<string>;
     screenReaderInputCaption?: DynamicValue<string>;
 }
 
 export interface DatagridTextFilterPreviewProps {
+    /**
+     * @deprecated Deprecated since version 9.18.0. Please use class property instead.
+     */
     className: string;
+    class: string;
     style: string;
     styleObject?: CSSProperties;
     readOnly: boolean;
@@ -37,7 +43,9 @@ export interface DatagridTextFilterPreviewProps {
     adjustable: boolean;
     delay: number | null;
     valueAttribute: string;
+    filterTypeAttribute: string;
     onChange: {} | null;
+    onFilterTypeChange: {} | null;
     screenReaderButtonCaption: string;
     screenReaderInputCaption: string;
 }
